@@ -23,9 +23,6 @@ ____
     则需要重新编译python和vim
 + 安装YouCompleteMe，如果你的Gcc版本太低，提示要安装devtoolset-8,则先安装devtoolset-8
 + 然后执行下面步骤后,重新编译YouCompleteMe
-+ ubuntu 20.04.1 已测试，可略过python3,vim8安装，直接使用gcc 9.3.0编译YouCompleteMe
-    install.py --go-completer --clang-completer
-
 ```
  scl enable devtoolset-8 -- bash
  source /opt/rh/devtoolset-8/enable
@@ -35,6 +32,9 @@ ____
  gcc --version
 
 ```
++ ubuntu 20.04.1 已测试，可略过python3,vim8安装，直接使用gcc 9.3.0编译YouCompleteMe
+    install.py --go-completer --clang-completer
+
 
 
 
