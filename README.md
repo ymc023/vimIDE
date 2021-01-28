@@ -34,6 +34,23 @@ ____
 ```
 + ubuntu 20.04.1 已测试，可略过python3,vim8安装，直接使用gcc 9.3.0编译YouCompleteMe
     install.py --go-completer --clang-completer
+```
+" vimrc文件定义快捷键备注
+" F2 Tlist 
+" F3 NERDTreeToggle 
+" F4 去掉全文空格 
+" F5 编译运行,会自动根据扩展名调用
+" F6 代码格式化
+"
+" F8 转大写 
+" F9 选中代码块后注释 
+" F10 选中代码块后取消注释 
+" F11 pastetoggle,set paste模式,开启后粘贴内容不变形 
+" F12 Tagbar,golang 
+" ctrl+j  展开折叠代码 
+" space   折叠代码 
+" ctrl+l  输入python的if __name__ == '__main__': 
+```
 
 
 
